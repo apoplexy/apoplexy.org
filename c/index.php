@@ -41,6 +41,8 @@
 <a target="_blank" href="http://www.princeofpersia.ppa.pl/">Nieoficjalny Serwis Gry PoP</a> (<span class="italic">Polish</span>)
 <br>
 <a target="_blank" href="http://www.jordanmechner.com/projects/prince-of-persia/">Jordan Mechner's PoP Page</a>
+<br>
+<a target="_blank" href="https://github.com/NagyD/SDLPoP">SDLPoP</a> and <a target="_blank" href="http://oitofelix.github.io/mininim/">MININIM</a>
 </p>
 
 <?php

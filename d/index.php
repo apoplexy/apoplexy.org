@@ -276,21 +276,21 @@ function Release ($iRelease)
 	<a target="_blank" href="/screenshots/apoplexy-3.1_PoP1_DOS.png">
 		<img src="/screenshots/apoplexy-3.1_PoP1_DOS.png" alt="PoP1 for DOS">
 	</a>
-	<p class="caption"><i>Prince of Persia 1</i> for DOS</p>
+	<p class="caption">Editing <i>Prince of Persia 1</i> for DOS</p>
 </div>
 <span style="display:block; clear:both;"></span>
 <div class="polaroid rotate_left">
 	<a target="_blank" href="/screenshots/apoplexy-3.1_PoP2_DOS.png">
 		<img src="/screenshots/apoplexy-3.1_PoP2_DOS.png" alt="PoP2 for DOS">
 	</a>
-	<p class="caption" style="text-align:right;"><i>Prince of Persia 2</i> for DOS</p>
+	<p class="caption" style="text-align:right;">Editing <i>Prince of Persia 2</i> for DOS</p>
 </div>
 <span style="display:block; clear:both;"></span>
 <div class="polaroid rotate_right">
 	<a target="_blank" href="/screenshots/apoplexy-3.1_PoP1_SNES.png">
 		<img src="/screenshots/apoplexy-3.1_PoP1_SNES.png" alt="PoP1 for SNES">
 	</a>
-	<p class="caption"><i>Prince of Persia 1</i> for SNES</p>
+	<p class="caption">Editing <i>Prince of Persia 1</i> for SNES</p>
 </div>
 
 </div>
