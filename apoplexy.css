@@ -1,0 +1,163 @@
+html {
+	height:100%;
+	overflow-y:scroll;
+}
+body {
+	height:100%;
+	background:url("/images/back_01.jpg") repeat-y center top fixed;
+	font-family:sans-serif;
+	font-size:14px;
+	color:#000!important;
+}
+a:active {
+	color:#000;
+	font-weight:bold;
+	text-decoration:none;
+}
+a:link {
+	color:#000;
+	font-weight:bold;
+	text-decoration:none;
+}
+a:visited {
+	color:#000;
+	font-weight:bold;
+	text-decoration:none;
+}
+img {
+	vertical-align:bottom;
+}
+p {
+	margin:16px 0;
+}
+h1 {
+	margin:0;
+	background-color:#6e88a8;
+	text-align:center;
+	color:#fff;
+	padding:20px;
+}
+h2 {
+	margin:20px 0;
+	padding:10px 0;
+	border-width:2px 0;
+	border-style:solid;
+	border-color:#000;
+}
+.italic {
+	font-style:italic;
+}
+.div_main {
+	background-color:rgba(255,255,255,0.9);
+	min-height:calc(100vh - 125px);
+	padding:0!important;
+}
+.div_menu {
+	background-color:#3b495a;
+	padding-top:10px;
+}
+.a_menu {
+	color:#ca9a54!important;
+	border:2px solid #6e88a8;
+	display:block;
+	width:100%;
+	padding:10px;
+	margin-bottom:10px;
+	text-align:center;
+	border-radius:10px;
+	box-shadow:3px 3px 3px #000;
+}
+.a_menu:hover {
+	color:#000!important;
+	border:2px solid #fff;
+	background-color:#6e88a8;
+}
+.a_menu.active {
+	color:#000!important;
+	border:2px solid #fff;
+	background-color:#6e88a8;
+}
+.footer {
+	position:fixed;
+	bottom:0;
+	width:100%;
+	min-height:50px;
+	background-color:#6e88a8;
+	border-top:2px solid #000;
+}
+.container-fluid .footertext {
+	margin:15px 0;
+	color:#000;
+}
+.div_content {
+	padding:10px;
+	margin-bottom:50px;
+}
+div.polaroid {
+	padding:10px 10px 0 10px;
+	margin-right:30px;
+	border:1px solid #bfbfbf;
+	background-color:#fff;
+	box-shadow:10px 10px 5px #aaa;
+	width:calc(100% - 30px);
+	float:right;
+}
+div.polaroid img {
+	max-width:100%;
+}
+div.rotate_right {
+	-ms-transform:rotate(8deg); /*** IE 9 ***/
+	-webkit-transform:rotate(8deg); /*** Safari ***/
+	transform:rotate(8deg);
+}
+div.rotate_left {
+	-ms-transform:rotate(-8deg); /*** IE 9 ***/
+	-webkit-transform:rotate(-8deg); /*** Safari ***/
+	transform:rotate(-8deg);
+}
+.download {
+	display:block;
+	background-color:#16da00;
+	color:#fff!important;
+	cursor:pointer;
+	text-decoration:none;
+	padding:20px;
+	border-radius:20px;
+	margin:20px 0;
+	word-break:break-all;
+}
+.download:hover {
+	background-color:#13c100;
+}
+span.rtl {
+	unicode-bidi:bidi-override;
+	direction:rtl;
+}
+.changes {
+	display:block;
+	padding:10px;
+	color:#000;
+	font-size:16px;
+	background-color:#fff;
+	border:1px solid #aaa;
+	font-family:monospace;
+}
+.span_tutorialh {
+	display:block;
+	text-align:center;
+	font-size:20px;
+}
+.span_tutoriall {
+	display:block;
+	font-size:20px;
+	font-style:italic;
+	margin-top:20px;
+}
+.a_ss {
+	display:inline-block;
+	margin:20px;
+}
+.img_ss {
+	border:2px dashed #000;
+	max-width:100%;
+}

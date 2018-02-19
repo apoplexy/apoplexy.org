@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- https://www.apoplexy.org/news.xml -->
+<news>
+	<item date="2018-02-19">
+		<html><![CDATA[Moved the official website to apoplexy.org.]]></html>
+	</item>
+	<item date="2018-02-07">
+		<html><![CDATA[Version 3.1 released (<a href="?r=19">ChangeLog</a>).]]></html>
+	</item>
+	<item date="2016-02-04">
+		<html><![CDATA[Version 3.0 released (<a href="?r=18">ChangeLog</a>).]]></html>
+	</item>
+	<item date="2016-01-15">
+		<html><![CDATA[Version 3.0 RC3 released (<a href="?r=17">ChangeLog</a>).]]></html>
+	</item>
+	<item date="2015-12-21">
+		<html><![CDATA[Version 3.0 RC2 released (<a href="?r=16">ChangeLog</a>).]]></html>
+	</item>
+	<item date="2015-12-13">
+		<html><![CDATA[Version 3.0 RC1 released (<a href="?r=15">ChangeLog</a>).]]></html>
+	</item>
+	<item date="2015-08-21">
+		<html><![CDATA[Version 2.7 released (<a href="?r=14">ChangeLog</a>).]]></html>
+	</item>
+	<item date="2014-09-17">
+		<html><![CDATA[Version 2.6b released (<a href="?r=13">ChangeLog</a>).]]></html>
+	</item>
+	<item date="2014-09-13">
+		<html><![CDATA[Version 2.5.1 released (<a href="?r=12">ChangeLog</a>).]]></html>
+	</item>
+	<item date="2014-08-11">
+		<html><![CDATA[Version 2.5 released (<a href="?r=11">ChangeLog</a>).]]></html>
+	</item>
+	<item date="2014-08-01">
+		<html><![CDATA[Version 2.4 released (<a href="?r=10">ChangeLog</a>).]]></html>
+	</item>
+	<item date="2014-07-30">
+		<html><![CDATA[Version 2.3.1 released (<a href="?r=9">ChangeLog</a>).]]></html>
+	</item>
+	<item date="2014-07-06">
+		<html><![CDATA[Version 2.3 released (<a href="?r=8">ChangeLog</a>).]]></html>
+	</item>
+	<item date="2014-06-01">
+		<html><![CDATA[Version 2.2b released (<a href="?r=7">ChangeLog</a>).]]></html>
+	</item>
+	<item date="2014-02-01">
+		<html><![CDATA[Version 2.1b released (<a href="?r=6">ChangeLog</a>).]]></html>
+	</item>
+	<item date="2013-12-28">
+		<html><![CDATA[Version 2.0 released (<a href="?r=5">ChangeLog</a>).]]></html>
+	</item>
+	<item date="2013-09-20">
+		<html><![CDATA[Version 1.9b released (<a href="?r=4">ChangeLog</a>).]]></html>
+	</item>
+	<item date="2012-07-16">
+		<html><![CDATA[Version 1.2b released (<a href="?r=3">ChangeLog</a>).]]></html>
+	</item>
+	<item date="2011-01-30">
+		<html><![CDATA[Version 1.1 released (<a href="?r=2">ChangeLog</a>).<br>Moved the official website to norbertdejonge.nl/apoplexy/.]]></html>
+	</item>
+	<item date="2008-04-03">
+		<html><![CDATA[Version 1.0b released (<a href="?r=1">ChangeLog</a>).]]></html>
+	</item>
+</news>
