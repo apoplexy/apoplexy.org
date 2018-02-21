@@ -18,7 +18,7 @@
 
 include ('../apoplexy_def.php');
 
-$GLOBALS['last_release'] = 19;
+$GLOBALS['last_release'] = 20;
 
 /*** $iRelease ***/
 $iRelease = 0;
@@ -33,7 +33,7 @@ if ($iRelease == 0)
 {
 	HTMLStart ('Download');
 	Menu ('Download');
-	print ('<h1>Download apoplexy 3.1</h1>');
+	print ('<h1>Download apoplexy 3.2</h1>');
 } else {
 	SetRelease ($iRelease);
 	HTMLStart ($GLOBALS['rtitleh1']);
@@ -48,6 +48,16 @@ function SetRelease ($iRelease)
 {
 	switch ($iRelease)
 	{
+		case 20:
+			$sVersion = '3.2';
+			$GLOBALS['rdate'] = '2018-02-21';
+$GLOBALS['rchanges'] = '+ If one or more games are not present, instead of merely showing clickable web links to allow the user to manually add the games, buttons can now be clicked to auto-download the games.
+* Fixed a dest.x/y bug in ShowImageBasic().
+* Moved the Windows port back to 32-bit.
+* Various small changes to allow this to become a multi-developer project.[3]
+* Added the project to GitHub, at https://github.com/apoplexy/apoplexy.
+[3] Moved the code to src/, new domain (apoplexy.org) and website, new icon/logo, additional project files (compiling.txt, coding-style.txt, credits.txt).';
+			break;
 		case 19:
 			$sVersion = '3.1';
 			$GLOBALS['rdate'] = '2018-02-07';
@@ -214,12 +224,12 @@ print ('
 <span style="display:block; float:left; width:calc(50% - 10px); text-align:center; margin-right:10px;">
 <span style="display:block; margin:16px 0;">for Windows</span>
 <img src="/images/Windows.png" alt="Windows">
-<a href="/releases/apoplexy-3.1-win64.zip" class="download">Download Now</a>
+<a href="/releases/apoplexy-3.2-win32.zip" class="download">Download Now</a>
 </span>
 <span style="display:block; float:left; width:calc(50% - 10px); text-align:center; margin-left:10px;">
 <span style="display:block; margin:16px 0;">for GNU/Linux</span>
 <img src="/images/GNULinux.png" alt="GNU/Linux">
-<a href="/releases/apoplexy-3.1.tar.gz" class="download">Download Now</a>
+<a href="/releases/apoplexy-3.2.tar.gz" class="download">Download Now</a>
 </span>
 <span style="display:block; clear:both;"></span>
 <span style="display:block; text-align:center;">A <a target="_blank" href="/ChangeLog.txt">changelog</a> is available.</span>

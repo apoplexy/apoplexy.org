@@ -1,3 +1,19 @@
+# ====================
+# Changes are grouped by: added (+), changed (*), then removed (-).
+# Heading format:
+# - for releases: "v<version> (<month> <day>, <year>) - <maintainer>"
+# - for upcoming: "Next release"
+# ====================
+
+v3.2 (February 21, 2018) - Norbert de Jonge
+--------------------
++ If one or more games are not present, instead of merely showing clickable web links to allow the user to manually add the games, buttons can now be clicked to auto-download the games.
+* Fixed a dest.x/y bug in ShowImageBasic().
+* Moved the Windows port back to 32-bit.
+* Various small changes to allow this to become a multi-developer project.[3]
+* Added the project to GitHub, at https://github.com/apoplexy/apoplexy.
+[3] Moved the code to src/, new domain (apoplexy.org) and website, new icon/logo, additional project files (compiling.txt, coding-style.txt, credits.txt).
+
 v3.1 (February 7, 2018) - Norbert de Jonge
 --------------------
 Back from 'retirement' to implement two frequently requested features.
@@ -40,9 +56,9 @@ v2.7 (August 21, 2015) - Norbert de Jonge
 
 v2.6b (September 17, 2014) - Norbert de Jonge
 --------------------
-+ Expanded the screen where PoP1's PRINCE.EXE can be changed.[1]
++ Expanded the screen where PoP1's PRINCE.EXE can be changed.[2]
 * Better handling of PoP2 (static and dynamic) guards with unexpected values.
-[1] Users can now also change whether the prince has his sword (default, never, always), where the prince wins (level, room), and the environments and enemy resources used for each level.
+[2] Users can now also change whether the prince has his sword (default, never, always), where the prince wins (level, room), and the environments and enemy resources used for each level.
 
 v2.5.1 (September 13, 2014) - Norbert de Jonge
 --------------------
