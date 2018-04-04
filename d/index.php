@@ -256,7 +256,7 @@ function Release ($iRelease)
 	$sDateH = date ('F j, Y', strtotime ($GLOBALS['rdate']));
 	print ('<p style="font-size:20px;"><a href="/d/">&laquo; Back</a></p>');
 	print ('<h2>' . $GLOBALS['rtitleh1'] . '</h2>');
-	print ('<img src="/images/apoplexy_32x32.png" style="float:left; padding:10px;">');
+	print ('<img src="/images/apoplexy_32x32.png" alt="apoplexy icon" style="float:left; padding:10px;">');
 	print ('<span style="display:block; font-size:16px; margin-bottom:20px;">');
 	print ('Released by <a target="_blank" href="https://www.popot.org/profile.php?user_id=1">Norbert</a> on ' . $sDateH . '.');
 	print ('<br>');
