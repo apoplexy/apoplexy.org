@@ -129,9 +129,8 @@ div.rotate_left {
 .download:hover {
 	background-color:#13c100;
 }
-span.rtl {
-	unicode-bidi:bidi-override;
-	direction:rtl;
+.cryptedmail:after {
+	content:attr(data-name) "@" attr(data-domain) "." attr(data-tld);
 }
 .changes {
 	display:block;

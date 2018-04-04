@@ -25,7 +25,7 @@
 
 <h2>Contact</h2>
 <p>
-<span class="rtl">gro.yxelpopa@ofni</span>
+<a data-name="info" data-domain="apoplexy" data-tld="org" href="#" class="cryptedmail" onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld"></a>
 <br>
 <a target="_blank" href="http://forum.princed.org/viewforum.php?f=112">Forum board</a>
 </p>

@@ -260,7 +260,7 @@ function Release ($iRelease)
 	print ('<span style="display:block; font-size:16px; margin-bottom:20px;">');
 	print ('Released by <a target="_blank" href="https://www.popot.org/profile.php?user_id=1">Norbert</a> on ' . $sDateH . '.');
 	print ('<br>');
-	print ('<span class="italic">Thoughts? E-mail <span class="rtl">gro.yxelpopa@ofni</span> or leave a comment on our <a target="_blank" href="http://forum.princed.org/viewforum.php?f=112">forum</a>.</span>');
+	print ('<span class="italic">Thoughts? E-mail <a data-name="info" data-domain="apoplexy" data-tld="org" href="#" class="cryptedmail" onclick="window.location.href = \'mailto:\' + this.dataset.name + \'@\' + this.dataset.domain + \'.\' + this.dataset.tld"></a> or leave a comment on our <a target="_blank" href="http://forum.princed.org/viewforum.php?f=112">forum</a>.</span>');
 	print ('</span>');
 	print ('<span class="changes">' . nl2br ($GLOBALS['rchanges']) . '</span>');
 }
