@@ -18,7 +18,7 @@
 
 include ('../apoplexy_def.php');
 
-$GLOBALS['last_release'] = 20;
+$GLOBALS['last_release'] = 21;
 
 /*** $iRelease ***/
 $iRelease = 0;
@@ -33,7 +33,7 @@ if ($iRelease == 0)
 {
 	HTMLStart ('Download');
 	Menu ('Download');
-	print ('<h1>Download apoplexy 3.2</h1>');
+	print ('<h1>Download apoplexy 3.3</h1>');
 } else {
 	SetRelease ($iRelease);
 	HTMLStart ($GLOBALS['rtitleh1']);
@@ -48,6 +48,16 @@ function SetRelease ($iRelease)
 {
 	switch ($iRelease)
 	{
+		case 21:
+			$sVersion = '3.3';
+			$GLOBALS['rdate'] = '2018-04-14';
+$GLOBALS['rchanges'] = '10-Year Anniversary!
++ A pop-up simplifies playtesting with SDLPoP and MININIM.
++ All native tiles are now marked with an SDLPoP and/or MININIM icon.
++ Added PoP1 for DOS speed options to the EXE screen (base, fight, chomper).
++ Highlighting for special blue potions on the Map window.
+* Chompers in-editor no longer make noise by default.';
+			break;
 		case 20:
 			$sVersion = '3.2';
 			$GLOBALS['rdate'] = '2018-02-21';
@@ -224,12 +234,12 @@ print ('
 <span style="display:block; float:left; width:calc(50% - 10px); text-align:center; margin-right:10px;">
 <span style="display:block; margin:16px 0;">for Windows</span>
 <img src="/images/Windows.png" alt="Windows">
-<a href="/releases/apoplexy-3.2-win32.zip" class="download">Download Now</a>
+<a href="/releases/apoplexy-3.3-win32.zip" class="download">Download Now</a>
 </span>
 <span style="display:block; float:left; width:calc(50% - 10px); text-align:center; margin-left:10px;">
 <span style="display:block; margin:16px 0;">for GNU/Linux</span>
 <img src="/images/GNULinux.png" alt="GNU/Linux">
-<a href="/releases/apoplexy-3.2.tar.gz" class="download">Download Now</a>
+<a href="/releases/apoplexy-3.3.tar.gz" class="download">Download Now</a>
 </span>
 <span style="display:block; clear:both;"></span>
 <span style="display:block; text-align:center;">A <a target="_blank" href="/ChangeLog.txt">changelog</a> is available.</span>
