@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- https://www.apoplexy.org/news.xml -->
 <news>
+	<item date="2019-04-14">
+		<html><![CDATA[Version 3.6 released (<a href="?r=24">ChangeLog</a>).]]></html>
+	</item>
 	<item date="2019-03-21">
 		<html><![CDATA[Version 3.5 released (<a href="?r=23">ChangeLog</a>).]]></html>
 	</item>
