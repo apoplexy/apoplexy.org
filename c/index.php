@@ -27,22 +27,22 @@
 <p>
 <a data-name="info" data-domain="apoplexy" data-tld="org" href="#" class="cryptedmail" onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld"></a>
 <br>
-<a target="_blank" href="http://forum.princed.org/viewforum.php?f=112">Forum board</a>
+<a target="_blank" href="https://forum.princed.org/viewforum.php?f=112">Forum board</a>
 </p>
 
 <h2>Links</h2>
 <p>
 <a target="_blank" href="https://www.popot.org/">Prince of Persia: Original Trilogy</a> (popot.org)
 <br>
-<a target="_blank" href="http://www.princed.org/">Princed Project</a> (princed.org)
+<a target="_blank" href="https://www.princed.org/">Princed Project</a> (princed.org)
 <br>
-<a target="_blank" href="http://www.popuw.com/">Prince of Persia Unofficial Website</a> (popuw.com)
+<a target="_blank" href="https://www.popuw.com/">Prince of Persia Unofficial Website</a> (popuw.com)
 <br>
 <a target="_blank" href="http://www.princeofpersia.ppa.pl/">Nieoficjalny Serwis Gry PoP</a> (<span class="italic">Polish</span>)
 <br>
-<a target="_blank" href="http://www.jordanmechner.com/projects/prince-of-persia/">Jordan Mechner's PoP Page</a>
+<a target="_blank" href="https://www.jordanmechner.com/projects/prince-of-persia/">Jordan Mechner's PoP Page</a>
 <br>
-<a target="_blank" href="https://github.com/NagyD/SDLPoP">SDLPoP</a> and <a target="_blank" href="http://oitofelix.github.io/mininim/">MININIM</a>
+<a target="_blank" href="https://github.com/NagyD/SDLPoP">SDLPoP</a> and <a target="_blank" href="https://oitofelix.github.io/mininim/">MININIM</a>
 </p>
 
 <?php

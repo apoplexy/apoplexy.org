@@ -18,7 +18,7 @@
 
 include ('../apoplexy_def.php');
 
-$GLOBALS['last_release'] = 24;
+$GLOBALS['last_release'] = 25;
 
 /*** $iRelease ***/
 $iRelease = 0;
@@ -33,7 +33,7 @@ if ($iRelease == 0)
 {
 	HTMLStart ('Download');
 	Menu ('Download');
-	print ('<h1>Download apoplexy 3.6</h1>');
+	print ('<h1>Download apoplexy 3.7</h1>');
 } else {
 	SetRelease ($iRelease);
 	HTMLStart ($GLOBALS['rtitleh1']);
@@ -48,6 +48,12 @@ function SetRelease ($iRelease)
 {
 	switch ($iRelease)
 	{
+		case 25:
+			$sVersion = '3.7';
+			$GLOBALS['rdate'] = '2019-12-05';
+$GLOBALS['rchanges'] = '+ PoP2 for DOS level and guard types can now be modified.
+* Fixed a small bug in ShowRoomsMap().';
+			break;
 		case 24:
 			$sVersion = '3.6';
 			$GLOBALS['rdate'] = '2019-04-14';
@@ -249,12 +255,12 @@ print ('
 <span style="display:block; float:left; width:calc(50% - 10px); text-align:center; margin-right:10px;">
 <span style="display:block; margin:16px 0;">for Windows</span>
 <img src="/images/Windows.png" alt="Windows">
-<a href="/releases/apoplexy-3.6-win32.zip" class="download">Download Now</a>
+<a href="/releases/apoplexy-3.7-win32.zip" class="download">Download Now</a>
 </span>
 <span style="display:block; float:left; width:calc(50% - 10px); text-align:center; margin-left:10px;">
 <span style="display:block; margin:16px 0;">for GNU/Linux</span>
 <img src="/images/GNULinux.png" alt="GNU/Linux">
-<a href="/releases/apoplexy-3.6.tar.gz" class="download">Download Now</a>
+<a href="/releases/apoplexy-3.7.tar.gz" class="download">Download Now</a>
 </span>
 <span style="display:block; clear:both;"></span>
 <span style="display:block; text-align:center;">A <a target="_blank" href="/ChangeLog.txt">changelog</a> is available.</span>
@@ -285,7 +291,7 @@ function Release ($iRelease)
 	print ('<span style="display:block; font-size:16px; margin-bottom:20px;">');
 	print ('Released by <a target="_blank" href="https://www.popot.org/profile.php?user_id=1">Norbert</a> on ' . $sDateH . '.');
 	print ('<br>');
-	print ('<span class="italic">Thoughts? E-mail <a data-name="info" data-domain="apoplexy" data-tld="org" href="#" class="cryptedmail" onclick="window.location.href = \'mailto:\' + this.dataset.name + \'@\' + this.dataset.domain + \'.\' + this.dataset.tld"></a> or leave a comment on our <a target="_blank" href="http://forum.princed.org/viewforum.php?f=112">forum</a>.</span>');
+	print ('<span class="italic">Thoughts? E-mail <a data-name="info" data-domain="apoplexy" data-tld="org" href="#" class="cryptedmail" onclick="window.location.href = \'mailto:\' + this.dataset.name + \'@\' + this.dataset.domain + \'.\' + this.dataset.tld"></a> or leave a comment on our <a target="_blank" href="https://forum.princed.org/viewforum.php?f=112">forum</a>.</span>');
 	print ('</span>');
 	print ('<span class="changes">' . nl2br ($GLOBALS['rchanges']) . '</span>');
 }

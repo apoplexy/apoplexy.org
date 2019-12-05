@@ -58,9 +58,9 @@ function VideoYT ($sCode, $sTitle)
 <h2>Documents</h2>
 <span class="span_tutoriall">Special Events</span>
 <p>
-<a href="http://www.popot.org/documentation/documents/2015-08-07_PoP1_Special_Events.pdf">PoP1 for DOS</a>
+<a href="https://www.popot.org/documentation/documents/2015-08-07_PoP1_Special_Events.pdf">PoP1 for DOS</a>
 <br>
-<a href="http://www.popot.org/documentation/documents/2014-07-10_PoP2_Special_Events.pdf">PoP2 for DOS</a>
+<a href="https://www.popot.org/documentation/documents/2014-07-10_PoP2_Special_Events.pdf">PoP2 for DOS</a>
 </p>
 <h2>Community Videos</h2>
 <span class="span_tutoriall">by Aram Sev.</span>
