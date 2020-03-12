@@ -18,7 +18,7 @@
 
 include ('../apoplexy_def.php');
 
-$GLOBALS['last_release'] = 25;
+$GLOBALS['last_release'] = 26;
 
 /*** $iRelease ***/
 $iRelease = 0;
@@ -33,7 +33,7 @@ if ($iRelease == 0)
 {
 	HTMLStart ('Download');
 	Menu ('Download');
-	print ('<h1>Download apoplexy 3.7</h1>');
+	print ('<h1>Download apoplexy 3.8</h1>');
 } else {
 	SetRelease ($iRelease);
 	HTMLStart ($GLOBALS['rtitleh1']);
@@ -48,6 +48,13 @@ function SetRelease ($iRelease)
 {
 	switch ($iRelease)
 	{
+		case 26:
+			$sVersion = '3.8';
+			$GLOBALS['rdate'] = '2020-03-12';
+$GLOBALS['rchanges'] = '+ It\'s now possible to quickly jump to rooms ("j").
++ Added PoP1 for DOS loose floor settings (F3).
++ Proper warning if downloading from Popot.org fails.';
+			break;
 		case 25:
 			$sVersion = '3.7';
 			$GLOBALS['rdate'] = '2019-12-05';
@@ -255,12 +262,12 @@ print ('
 <span style="display:block; float:left; width:calc(50% - 10px); text-align:center; margin-right:10px;">
 <span style="display:block; margin:16px 0;">for Windows</span>
 <img src="/images/Windows.png" alt="Windows">
-<a href="/releases/apoplexy-3.7-win32.zip" class="download">Download Now</a>
+<a href="/releases/apoplexy-3.8-win32.zip" class="download">Download Now</a>
 </span>
 <span style="display:block; float:left; width:calc(50% - 10px); text-align:center; margin-left:10px;">
 <span style="display:block; margin:16px 0;">for GNU/Linux</span>
 <img src="/images/GNULinux.png" alt="GNU/Linux">
-<a href="/releases/apoplexy-3.7.tar.gz" class="download">Download Now</a>
+<a href="/releases/apoplexy-3.8.tar.gz" class="download">Download Now</a>
 </span>
 <span style="display:block; clear:both;"></span>
 <span style="display:block; text-align:center;">A <a target="_blank" href="/ChangeLog.txt">changelog</a> is available.</span>
