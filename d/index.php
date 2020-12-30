@@ -18,7 +18,7 @@
 
 include ('../apoplexy_def.php');
 
-$GLOBALS['last_release'] = 29;
+$GLOBALS['last_release'] = 30;
 
 /*** $iRelease ***/
 $iRelease = 0;
@@ -33,7 +33,7 @@ if ($iRelease == 0)
 {
 	HTMLStart ('Download');
 	Menu ('Download');
-	print ('<h1>Download apoplexy 3.11</h1>');
+	print ('<h1>Download apoplexy 3.11.1</h1>');
 } else {
 	SetRelease ($iRelease);
 	HTMLStart ($GLOBALS['rtitleh1']);
@@ -48,6 +48,12 @@ function SetRelease ($iRelease)
 {
 	switch ($iRelease)
 	{
+		case 30:
+			$sVersion = '3.11.1';
+			$GLOBALS['rdate'] = '2020-12-30';
+$GLOBALS['rchanges'] = '* Fixed a visual bug that was introduced in v3.11 (kid dir).
+* Fixed the PoP1 for DOS demo level playability toggle.';
+			break;
 		case 29:
 			$sVersion = '3.11';
 			$GLOBALS['rdate'] = '2020-11-23';
@@ -280,12 +286,12 @@ print ('
 <span style="display:block; float:left; width:calc(50% - 10px); text-align:center; margin-right:10px;">
 <span style="display:block; margin:16px 0;">for Windows</span>
 <img src="/images/Windows.png" alt="Windows">
-<a href="/releases/apoplexy-3.11-win32.zip" class="download">Download Now</a>
+<a href="/releases/apoplexy-3.11.1-win32.zip" class="download">Download Now</a>
 </span>
 <span style="display:block; float:left; width:calc(50% - 10px); text-align:center; margin-left:10px;">
 <span style="display:block; margin:16px 0;">for GNU/Linux</span>
 <img src="/images/GNULinux.png" alt="GNU/Linux">
-<a href="/releases/apoplexy-3.11.tar.gz" class="download">Download Now</a>
+<a href="/releases/apoplexy-3.11.1.tar.gz" class="download">Download Now</a>
 </span>
 <span style="display:block; clear:both;"></span>
 <span style="display:block; text-align:center;">A <a target="_blank" href="/ChangeLog.txt">changelog</a> is available.</span>
