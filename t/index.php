@@ -32,10 +32,11 @@ print ('
 ');
 }
 /*****************************************************************************/
-function VideoYT ($sCode, $sTitle)
+function VideoYT ($sCode, $sTitle, $sYear)
 /*****************************************************************************/
 {
-	print ('<a target="_blank" href="https://www.youtube.com/watch?v=' . $sCode . '">' . $sTitle . '</a>');
+	print ('<a target="_blank" href="https://www.youtube.com/watch?v=' .
+		$sCode . '">' . $sTitle . '</a> (' . $sYear . ')');
 }
 /*****************************************************************************/
 ?>
@@ -65,35 +66,43 @@ function VideoYT ($sCode, $sTitle)
 <h2>Community Videos</h2>
 <span class="span_tutoriall">by Aram Sev.</span>
 <p>
-<?php VideoYT ('zA6kbNRleiI', 'quickly build a level'); ?>
+<?php VideoYT ('zA6kbNRleiI', 'quickly build a level', '2018'); ?>
 <br>
-<?php VideoYT ('6JF2gayyI_w', 'Prince test - quickly create a mod'); ?>
+<?php VideoYT ('6JF2gayyI_w', 'Prince test - quickly create a mod', '2018'); ?>
 <br>
-<?php VideoYT ('n1o3sAI0VYs', 'How to use the new 3.1 (part 1)'); ?>
+<?php VideoYT ('n1o3sAI0VYs', 'How to use the new 3.1 (part 1)', '2018'); ?>
 <br>
-<?php VideoYT ('fitfN32CkW4', 'How to use the new 3.1 (part 2)'); ?>
+<?php VideoYT ('fitfN32CkW4', 'How to use the new 3.1 (part 2)', '2018'); ?>
 <br>
-<?php VideoYT ('7sJ5rKTUk4U', 'only Prince of Persia 1'); ?>
+<?php VideoYT ('7sJ5rKTUk4U', 'only Prince of Persia 1', '2018'); ?>
+<br>
+<?php VideoYT ('OWSCyd6Ze_k', 'How to create a MOD and play?', '2021'); ?>
+<br>
+<?php VideoYT ('ON5QMBWp8tk', 'How to make broken rooms?', '2021'); ?>
+<br>
+<?php VideoYT ('AwKBjPxnDHs', 'How to create an interesting level with broken rooms and play', '2021'); ?>
+<br>
+<?php VideoYT ('K_suLuaC8Xo', 'Additional and interesting settings.', '2021'); ?>
 </p>
 <span class="span_tutoriall">by yaqxsw</span>
 <p>
-<?php VideoYT ('wumqeXAv_Aw', '1. "For beginners"'); ?>
+<?php VideoYT ('wumqeXAv_Aw', '1. "For beginners"', '2015'); ?>
 <br>
-<?php VideoYT ('XrbF5ujwymk', '2. "Create gates"'); ?>
+<?php VideoYT ('XrbF5ujwymk', '2. "Create gates"', '2015'); ?>
 <br>
-<a target="_blank" href="https://www.youtube.com/watch?v=51Du9x1kDWk">3. "Blue potion"</a>
+<?php VideoYT ('51Du9x1kDWk', '3. "Blue potion"', '2015'); ?>
 <br>
-<a target="_blank" href="https://www.youtube.com/watch?v=ZxrOWyCIXbY">4. "Creating broken room"</a>
+<?php VideoYT ('ZxrOWyCIXbY', '4. "Creating broken room"', '2015'); ?>
 <br>
-<a target="_blank" href="https://www.youtube.com/watch?v=Jouzt7EGszI">5. "Create Time, Texture, Life!!!"</a>
+<?php VideoYT ('Jouzt7EGszI', '5. "Create Time, Texture, Life!!!"', '2015'); ?>
 <br>
-<a target="_blank" href="https://www.youtube.com/watch?v=N9HfuDeg8XY">6. "Modifier objects"</a>
+<?php VideoYT ('N9HfuDeg8XY', '6. "Modifier objects"', '2015'); ?>
 <br>
-<a target="_blank" href="https://www.youtube.com/watch?v=uW6NJkss8h0">7. "SDLPoP and how pass levelset"</a>
+<?php VideoYT ('uW6NJkss8h0', '7. "SDLPoP and how pass levelset"', '2016'); ?>
 <br>
-<a target="_blank" href="https://www.youtube.com/watch?v=P6aXc_SnmBI">8. "Change Graphic and Texture"</a>
+<?php VideoYT ('P6aXc_SnmBI', '8. "Change Graphic and Texture"', '2016'); ?>
 <br>
-<a target="_blank" href="https://www.youtube.com/watch?v=3Ho9C_sWHg8">9. "Screenshot and upload MOD"</a>
+<?php VideoYT ('3Ho9C_sWHg8', '9. "Screenshot and upload MOD"', '2016'); ?>
 </p>
 
 </div>
