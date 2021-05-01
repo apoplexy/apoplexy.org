@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- https://www.apoplexy.org/news.xml -->
 <news>
+	<item date="2021-05-01">
+		<html><![CDATA[Version 3.15 released (<a href="?r=35">ChangeLog</a>).]]></html>
+	</item>
 	<item date="2021-03-31">
 		<html><![CDATA[Version 3.14.1 released (<a href="?r=34">ChangeLog</a>).]]></html>
 	</item>
